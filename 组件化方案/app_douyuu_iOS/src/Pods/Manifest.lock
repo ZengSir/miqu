@@ -1,0 +1,16 @@
+PODS:
+  - DouyuuBase (0.0.1)
+
+DEPENDENCIES:
+  - DouyuuBase (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/ZengSir/douyuu_pods.git:
+    - DouyuuBase
+
+SPEC CHECKSUMS:
+  DouyuuBase: e27bc84b2769bd084979b2169fd024d08c3920da
+
+PODFILE CHECKSUM: 47aaeed9a7d7196cdeaddd48d410a917b6a15eca
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+framework module DouyuuBase {
+  umbrella header "DouyuuBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

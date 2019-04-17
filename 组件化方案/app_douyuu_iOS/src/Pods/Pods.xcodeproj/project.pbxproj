@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B3751881D15D1BB7B44A37A88EA32A /* DouyuuBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36541923C0EF73E0A60765554F3E7C0C /* DouyuuBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		266D722DB7CC0EDEF22D6B8E5EA227DD /* DouyuuBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6E5932CA1FF1D4AABC0DFFD99CF39E /* DouyuuBase-dummy.m */; };
+		2B166941830FACFF7346E8058C2088BA /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE30E02AE45D186842795C536EABEF /* Base.swift */; };
+		3202E5DE6E9626E53FDA76846E653AEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		4704A27C4855454D9E44A737293DE9B4 /* Pods-DouyuuApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7161BBFA2DE7B07B4FC65DD9868233 /* Pods-DouyuuApp-dummy.m */; };
+		743B36361F296EBF7049C48387D9F81D /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D4F8B6A03120E6A31A74978E49B3E5 /* Colors+Extension.swift */; };
+		D0F2A0706DA2A103F7183C3BC82E0B89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F74E3F6C14FE919077BDA8A9B54D5B59 /* Pods-DouyuuApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880D1BB203DCD07121A2A92FBF9EB99D /* Pods-DouyuuApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD9B4F90380698D259A72BFB6621376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CC7390C30870E68F01012C7B51949D;
+			remoteInfo = DouyuuBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C47035820E8338BAC1A9EBCA5C0D3A /* Pods-DouyuuApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DouyuuApp-frameworks.sh"; sourceTree = "<group>"; };
+		1844F752903873B5388184446FECDFE0 /* DouyuuBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DouyuuBase-prefix.pch"; sourceTree = "<group>"; };
+		1F073349A4733CDE633CCB959488FA43 /* DouyuuBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DouyuuBase.framework; path = DouyuuBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22917251055E8020CFAA080AAAD7AD1F /* Pods-DouyuuApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuuApp-Info.plist"; sourceTree = "<group>"; };
+		2984021BD5BF03B82CC15127F3DBFB37 /* Pods-DouyuuApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DouyuuApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36541923C0EF73E0A60765554F3E7C0C /* DouyuuBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DouyuuBase-umbrella.h"; sourceTree = "<group>"; };
+		36D4F8B6A03120E6A31A74978E49B3E5 /* Colors+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Colors+Extension.swift"; path = "DouyuuBase/Classes/extension/Colors+Extension.swift"; sourceTree = "<group>"; };
+		7BB784EE20CEFFF5F278CF1BF32553BA /* DouyuuBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DouyuuBase.xcconfig; sourceTree = "<group>"; };
+		83520EAF38108DBA8D9F88FD184924B8 /* Pods-DouyuuApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DouyuuApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		84FB7027041F8B19EF569D21EF17FC29 /* Pods-DouyuuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuuApp.release.xcconfig"; sourceTree = "<group>"; };
+		880D1BB203DCD07121A2A92FBF9EB99D /* Pods-DouyuuApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DouyuuApp-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE6E5932CA1FF1D4AABC0DFFD99CF39E /* DouyuuBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DouyuuBase-dummy.m"; sourceTree = "<group>"; };
+		B1DD066190D455CD02400D20D0147239 /* Pods-DouyuuApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DouyuuApp.modulemap"; sourceTree = "<group>"; };
+		B66C01BEC4A5DB89F605B7DB22D207F7 /* Pods_DouyuuApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DouyuuApp.framework; path = "Pods-DouyuuApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EA07E5CE4914AC39DFDF5B6AC67482 /* Pods-DouyuuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DouyuuApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA7161BBFA2DE7B07B4FC65DD9868233 /* Pods-DouyuuApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DouyuuApp-dummy.m"; sourceTree = "<group>"; };
+		E03E1BC463024738C6360BB6099A01C6 /* DouyuuBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DouyuuBase.modulemap; sourceTree = "<group>"; };
+		EDEE30E02AE45D186842795C536EABEF /* Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base.swift; path = DouyuuBase/Classes/Base.swift; sourceTree = "<group>"; };
+		FD885C24BC716D8CA65076665CA44ACC /* DouyuuBase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DouyuuBase-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08219643498A452415225B6A6D0B875C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3202E5DE6E9626E53FDA76846E653AEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C6BE0898D30B52721F8CDF317B17AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F2A0706DA2A103F7183C3BC82E0B89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C0AE48CF6CE1057C5BAE38A56558B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBF18CE90F73E775C63FE0DC90DA3D04 /* DouyuuBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FCE2D7483E16137D41D09BD3DDD5B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F073349A4733CDE633CCB959488FA43 /* DouyuuBase.framework */,
+				B66C01BEC4A5DB89F605B7DB22D207F7 /* Pods_DouyuuApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E248B2A1CB685EE6180E12A2F62B6F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03E1BC463024738C6360BB6099A01C6 /* DouyuuBase.modulemap */,
+				7BB784EE20CEFFF5F278CF1BF32553BA /* DouyuuBase.xcconfig */,
+				AE6E5932CA1FF1D4AABC0DFFD99CF39E /* DouyuuBase-dummy.m */,
+				FD885C24BC716D8CA65076665CA44ACC /* DouyuuBase-Info.plist */,
+				1844F752903873B5388184446FECDFE0 /* DouyuuBase-prefix.pch */,
+				36541923C0EF73E0A60765554F3E7C0C /* DouyuuBase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DouyuuBase";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B784140C9EB9F27A5A161A685FC8579 /* Pods-DouyuuApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1DD066190D455CD02400D20D0147239 /* Pods-DouyuuApp.modulemap */,
+				2984021BD5BF03B82CC15127F3DBFB37 /* Pods-DouyuuApp-acknowledgements.markdown */,
+				83520EAF38108DBA8D9F88FD184924B8 /* Pods-DouyuuApp-acknowledgements.plist */,
+				DA7161BBFA2DE7B07B4FC65DD9868233 /* Pods-DouyuuApp-dummy.m */,
+				17C47035820E8338BAC1A9EBCA5C0D3A /* Pods-DouyuuApp-frameworks.sh */,
+				22917251055E8020CFAA080AAAD7AD1F /* Pods-DouyuuApp-Info.plist */,
+				880D1BB203DCD07121A2A92FBF9EB99D /* Pods-DouyuuApp-umbrella.h */,
+				C7EA07E5CE4914AC39DFDF5B6AC67482 /* Pods-DouyuuApp.debug.xcconfig */,
+				84FB7027041F8B19EF569D21EF17FC29 /* Pods-DouyuuApp.release.xcconfig */,
+			);
+			name = "Pods-DouyuuApp";
+			path = "Target Support Files/Pods-DouyuuApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				17C0AE48CF6CE1057C5BAE38A56558B6 /* Pods */,
+				1FCE2D7483E16137D41D09BD3DDD5B0B /* Products */,
+				FFE2C4DD8E6F3E66585543711DF8FDD5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF18CE90F73E775C63FE0DC90DA3D04 /* DouyuuBase */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE30E02AE45D186842795C536EABEF /* Base.swift */,
+				36D4F8B6A03120E6A31A74978E49B3E5 /* Colors+Extension.swift */,
+				7E248B2A1CB685EE6180E12A2F62B6F5 /* Support Files */,
+			);
+			name = DouyuuBase;
+			path = DouyuuBase;
+			sourceTree = "<group>";
+		};
+		FFE2C4DD8E6F3E66585543711DF8FDD5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B784140C9EB9F27A5A161A685FC8579 /* Pods-DouyuuApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		183365A1796115FD3F0EB7A07AAE1B75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B3751881D15D1BB7B44A37A88EA32A /* DouyuuBase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBCEF71D13883501298DCCBDEC63B17C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E3F6C14FE919077BDA8A9B54D5B59 /* Pods-DouyuuApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16CC7390C30870E68F01012C7B51949D /* DouyuuBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F84CAEFED2B3EB0B52500BDC7479CEE /* Build configuration list for PBXNativeTarget "DouyuuBase" */;
+			buildPhases = (
+				183365A1796115FD3F0EB7A07AAE1B75 /* Headers */,
+				022C809ED9D3283AD5F85CB045676E18 /* Sources */,
+				08219643498A452415225B6A6D0B875C /* Frameworks */,
+				EC2214157B1D0A50DDF1448E115E9922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouyuuBase;
+			productName = DouyuuBase;
+			productReference = 1F073349A4733CDE633CCB959488FA43 /* DouyuuBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2EC2E459E820FA6B8D2F0F7F2B936D79 /* Pods-DouyuuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371A39E9A79DA9E74488F842AF5C4F57 /* Build configuration list for PBXNativeTarget "Pods-DouyuuApp" */;
+			buildPhases = (
+				DBCEF71D13883501298DCCBDEC63B17C /* Headers */,
+				4C4E198780C22B479F8FCD1A9A509939 /* Sources */,
+				70C6BE0898D30B52721F8CDF317B17AB /* Frameworks */,
+				E904EF5DDB75AABF64DDC053DF6E439B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A482801779131991338E1A3261A1259 /* PBXTargetDependency */,
+			);
+			name = "Pods-DouyuuApp";
+			productName = "Pods-DouyuuApp";
+			productReference = B66C01BEC4A5DB89F605B7DB22D207F7 /* Pods_DouyuuApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1FCE2D7483E16137D41D09BD3DDD5B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CC7390C30870E68F01012C7B51949D /* DouyuuBase */,
+				2EC2E459E820FA6B8D2F0F7F2B936D79 /* Pods-DouyuuApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E904EF5DDB75AABF64DDC053DF6E439B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2214157B1D0A50DDF1448E115E9922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		022C809ED9D3283AD5F85CB045676E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B166941830FACFF7346E8058C2088BA /* Base.swift in Sources */,
+				743B36361F296EBF7049C48387D9F81D /* Colors+Extension.swift in Sources */,
+				266D722DB7CC0EDEF22D6B8E5EA227DD /* DouyuuBase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E198780C22B479F8FCD1A9A509939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4704A27C4855454D9E44A737293DE9B4 /* Pods-DouyuuApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A482801779131991338E1A3261A1259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DouyuuBase;
+			target = 16CC7390C30870E68F01012C7B51949D /* DouyuuBase */;
+			targetProxy = 2AD9B4F90380698D259A72BFB6621376 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0467B965EEE6A6AAF52806F91DA5CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EA07E5CE4914AC39DFDF5B6AC67482 /* Pods-DouyuuApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuuApp/Pods-DouyuuApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuuApp/Pods-DouyuuApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29A8164ACE07EA5D0BD19353AB466552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB784EE20CEFFF5F278CF1BF32553BA /* DouyuuBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DouyuuBase/DouyuuBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DouyuuBase/DouyuuBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DouyuuBase/DouyuuBase.modulemap";
+				PRODUCT_MODULE_NAME = DouyuuBase;
+				PRODUCT_NAME = DouyuuBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61FB0E49EEA8B10A56B7F9BD154CD299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB784EE20CEFFF5F278CF1BF32553BA /* DouyuuBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DouyuuBase/DouyuuBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DouyuuBase/DouyuuBase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DouyuuBase/DouyuuBase.modulemap";
+				PRODUCT_MODULE_NAME = DouyuuBase;
+				PRODUCT_NAME = DouyuuBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E2457F96D47822A09E1C3548F78C4461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FB7027041F8B19EF569D21EF17FC29 /* Pods-DouyuuApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DouyuuApp/Pods-DouyuuApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DouyuuApp/Pods-DouyuuApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371A39E9A79DA9E74488F842AF5C4F57 /* Build configuration list for PBXNativeTarget "Pods-DouyuuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0467B965EEE6A6AAF52806F91DA5CD49 /* Debug */,
+				E2457F96D47822A09E1C3548F78C4461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F84CAEFED2B3EB0B52500BDC7479CEE /* Build configuration list for PBXNativeTarget "DouyuuBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A8164ACE07EA5D0BD19353AB466552 /* Debug */,
+				61FB0E49EEA8B10A56B7F9BD154CD299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
